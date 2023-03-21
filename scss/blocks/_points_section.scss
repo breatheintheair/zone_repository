@@ -1,0 +1,72 @@
+// .item {
+//   background: red;
+//   padding: 10px;
+//   display: flex;
+//   justify-content: space-between;
+// }
+// .item:nth-child(even) button {
+//     order: 1;
+// }
+// .item:nth-child(even) div {
+//     order: 2;
+// }
+
+
+
+
+
+.points-section {
+    display: block;
+    align-items: center;
+    margin-bottom: 107px;
+
+    &__first-part {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__second-part {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.first-part {
+
+    &__img {
+        max-width: 548px;
+    }
+
+    &__text {
+        max-width: 582px;
+    }
+}
+.text {
+
+    &__title {
+        @include text($ff, 700, 4.2rem, 5.5rem, $white);
+        margin-bottom: 30px;
+    }
+
+    &__desc {
+        @include text($ff, 400, 1.6rem, 2.6rem, $white);
+        margin-bottom: 30px;
+    }
+
+    &__action {
+        display: flex;
+		align-items: center;
+    }
+}
+
+
+.second-part {
+    &__img {
+        max-width: 548px;
+    }
+
+    &__text {
+        max-width: 582px;
+    }
+}
